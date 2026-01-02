@@ -1,5 +1,5 @@
 import logging 
-logging.basicConfig(filename='C:/Users/vupadhya/eclipse-workspace/PythonBasics/com/vijay/basics/GeekForGeeks/example.log', level=logging.INFO)  
+logging.basicConfig(filename='C:/Users/vupadhya/eclipse-workspace/concept/com/vijay/basics/gfg/example.log', level=logging.INFO)
 def logger(func): 
     def log_func(*args): 
         logging.info('Running "{}" with arguments {}'.format(func.__name__, args)) 
